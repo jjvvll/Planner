@@ -1,0 +1,224 @@
+.root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f6f3;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border: 0.5px solid #e0ddd6;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+/* ── Logo ── */
+.logo {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.logo span {
+  color: #1d9e75;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #888780;
+  margin-bottom: 32px;
+}
+
+/* ── Heading ── */
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.subheading {
+  font-size: 14px;
+  color: #888780;
+  margin-bottom: 28px;
+}
+
+/* ── Form ── */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #444441;
+}
+
+.input {
+  height: 40px;
+  padding: 0 12px;
+  border: 0.5px solid #d3d1c7;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1a1a1a;
+  background: #ffffff;
+  outline: none;
+  transition: border-color 0.15s ease;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: #b4b2a9;
+}
+
+.input:hover {
+  border-color: #b4b2a9;
+}
+
+.input:focus {
+  border-color: #1d9e75;
+  box-shadow: 0 0 0 3px rgba(29, 158, 117, 0.1);
+}
+
+.inputError {
+  border-color: #e24b4a;
+}
+
+.inputError:focus {
+  border-color: #e24b4a;
+  box-shadow: 0 0 0 3px rgba(226, 75, 74, 0.1);
+}
+
+.fieldError {
+  font-size: 12px;
+  color: #e24b4a;
+}
+
+/* ── Password row ── */
+.passwordRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forgotLink {
+  font-size: 12px;
+  color: #1d9e75;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forgotLink:hover {
+  text-decoration: underline;
+}
+
+/* ── Remember me ── */
+.rememberRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  accent-color: #1d9e75;
+  cursor: pointer;
+}
+
+.rememberLabel {
+  font-size: 13px;
+  color: #5f5e5a;
+  cursor: pointer;
+}
+
+/* ── Global error ── */
+.globalError {
+  padding: 10px 12px;
+  background: #fcebeb;
+  border: 0.5px solid #f7c1c1;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #a32d2d;
+}
+
+/* ── Submit button ── */
+.submitBtn {
+  height: 42px;
+  background: #1d9e75;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  transition:
+    background-color 0.15s ease,
+    opacity 0.15s ease;
+  margin-top: 4px;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: #0f6e56;
+}
+
+.submitBtn:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ── Divider ── */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 4px 0;
+}
+
+.dividerLine {
+  flex: 1;
+  height: 0.5px;
+  background: #e0ddd6;
+}
+
+.dividerText {
+  font-size: 12px;
+  color: #b4b2a9;
+}
+
+/* ── Register link ── */
+.registerRow {
+  text-align: center;
+  font-size: 13px;
+  color: #888780;
+}
+
+.registerLink {
+  color: #1d9e75;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.registerLink:hover {
+  text-decoration: underline;
+}
