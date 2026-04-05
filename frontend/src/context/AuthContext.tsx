@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, ReactNode } from "react";
 import { useQueryClient } from "@tanstack/react-query";
-import { useCurrentUser } from "@/hooks/useAuth";
-import { authKeys } from "@/hooks/useAuth";
+import { useCurrentUser } from "@/hooks/Useauth";
+import { authKeys } from "@/hooks/Useauth";
 import type { User } from "@/types/auth";
 
 // ── Context shape ─────────────────────────────────────────────────────────────

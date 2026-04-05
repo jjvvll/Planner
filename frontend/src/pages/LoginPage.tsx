@@ -2,7 +2,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
 import { Link } from "react-router-dom";
 import { AxiosError } from "axios";
 import { useLogin } from "@/hooks/useAuth";
-import type { LoginPayload, ValidationErrors } from "@/types/auth";
+import type { LoginPayload, ValidationErrors } from "../types/auth";
 import styles from "./LoginPage.module.css";
 
 // ── Types ─────────────────────────────────────────────────────────────────────

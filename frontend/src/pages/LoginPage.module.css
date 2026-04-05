@@ -1,9 +1,11 @@
 .root {
-  min-height: 100vh;
+  position: fixed;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #f7f6f3;
+  overflow-y: auto;
 }
 
 .card {
