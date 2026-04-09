@@ -23,7 +23,7 @@ class AuthController extends Controller
      *   3. Laravel sets an encrypted session cookie (laravel_session)
      *   4. All subsequent API requests are authenticated via that session cookie
      *
-     * No Bearer tokens are used or stored.
+     * No Bearer tokens are used or stored.///
      */
 
     public function register(Request $request): JsonResponse
